@@ -4,7 +4,7 @@ export default function LanguageComponent ({id,isChecked,onClick,lang,heading}){
 
     return(
 
-        <div style={isChecked?{border: ".5px solid #061F5C",color:"#061F5C"}:{border:".5px solid #191919",color:"#191919"}} className={styles.main} onClick={_=>onClick(id)} >
+        <div style={isChecked?{border: ".5px solid #061F5C",color:"#061F5C"}:{border:".5px solid #19191988",color:"#191919"}} className={styles.main} onClick={_=>onClick(id)} >
     <div className={styles.secondary}>
         <h3 className={styles.heading}>{heading}</h3>
         {
