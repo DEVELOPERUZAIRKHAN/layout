@@ -1,5 +1,5 @@
 import styles from "./Otp.module.css"
-import image from "../../images/Forgot 1.png"
+import image from "../../images/OTP 1.png"
 export default function Otp(){
 
 
@@ -13,16 +13,17 @@ export default function Otp(){
 
             <div className={styles.section}>
                 <h2 className={styles.mainHeading}>
-                    Forgot password?
+                    Please check your email
                 </h2>
-                <p className={styles.mainPara}>Enter the email for verificatio process. We will send 4 digit code to your email.</p>
+                <p className={styles.mainPara}>We've sent a code to loremipsum123@gmail.com</p>
 
 
                 <div className={styles.inputContainer}>
-                <label className={styles.label} htmlFor="myEmail">
-                    Email address
-                </label>
-                    <input placeholder="Enter email address"  className={styles.email} type="email" name="myEmail" id="myEmail" />
+
+                        <input className={styles.input} type="text" maxLength={1} name="" id="" />
+                        <input className={styles.input} type="text" maxLength={1} name="" id="" />
+                        <input className={styles.input} type="text" maxLength={1} name="" id="" />
+                        <input className={styles.input} type="text" maxLength={1} name="" id="" />
                 </div>
                 <button className={styles.button}>Submit</button>
             </div>

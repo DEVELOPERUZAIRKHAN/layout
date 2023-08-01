@@ -44,33 +44,31 @@ padding-top: 95px;
 }
 
 .inputContainer{
-    margin: 0 auto;
-    margin-top: 40px;
-    width: 335px;
+    display: flex;
+    width: 302px;
+    justify-content: center;
+    gap: 29px;
+    align-items: center;
+    margin:40px auto;
+    
 }
-
-.label{
+.input{
+    width: 54px;
     display: block;
-    color: #fff;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16.8px;
-    margin-bottom: 10px;
-}
-.email{
-    display: block;
-    padding: 19px 49px ;
-    outline: none;
-    border: none;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 14.35px;
-    color: #ffffff6c;
-    background-color: #ffffff21;
     border-radius: 10px;
-    width: 100%;
-
+    font-size: 16px ;
+    font-weight: 600;
+    line-height: 14px;
+    padding: 19px 22px;
+    outline: none;
+    text-align: center;
+    border: none;
+    background-color: #ffffff23;
+    color: white;
+    font-family: 'Urbanist', sans-serif;
 }
+
+
 .button{
     display: block;
     margin: 0 auto;

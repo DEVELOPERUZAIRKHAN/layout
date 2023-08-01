@@ -14,7 +14,6 @@ function App() {
 <BrowserRouter>
   <Routes>
     <Route path="/splash" exact element={<Splash/>}/>
-
     <Route path="/language" exact element={<Language/>}/>
     <Route path="/login" exact element={<Login/>}/>
     <Route path="/signup" exact element={<Signup/>}/>
