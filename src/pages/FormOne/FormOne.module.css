@@ -1,0 +1,103 @@
+.main{
+    background-color:#fff;
+    padding-top: 61px;
+    overflow: scroll;
+    padding-bottom: 70px;
+}
+.bellContainer{
+   display: flex;
+   justify-content: flex-end;
+   margin-right: 20px;
+   margin-bottom: 20px;
+}
+.mainHeading{
+    color: #061F5C;
+font-family: "Urbanist";
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-left: 20px;
+margin-bottom: 10px;
+}
+.mainPara{
+    color: var(--black, #010101);
+font-family: "Urbanist";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 335px ;
+margin: 0 auto;
+color: #010101;
+margin-bottom: 41px;
+}
+.dropContainer{
+    margin: 0 auto;
+    display: flex;
+    width: 335px;
+    margin-bottom: 25px;
+}
+.drop{
+    width: 164px;
+    height: 49px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 7px 16px 15px;
+    color: #000;
+font-family: "Urbanist";
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
+}
+
+.containerBox{
+    display: flex;
+    gap: 7px;
+}
+
+.cityContainer{
+    width: calc(50% - 3px);
+}
+.p{
+    width: 335px;
+    color: var(--primary-blue, #061F5C);
+font-family: "Urbanist";
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin: 0 auto;
+margin-bottom: 10px;
+}
+
+
+.finalP{
+    color: rgba(1, 1, 1, 0.60);
+font-family: "Urbanist";
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+width: 335px;
+margin: 0 auto;
+margin-bottom: 10px;
+}
+
+.button{
+    display: flex;
+width: 334px;
+padding: 18px 131px;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+background: var(--primary-blue, #061F5C);
+color: #fff;
+width: 335px;
+margin: auto;
+/* padding-bottom: 70px; */
+}

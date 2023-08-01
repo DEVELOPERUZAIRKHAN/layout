@@ -7,6 +7,10 @@ import Signup from "./pages/Signup/Signup";
 import Forgot from "./pages/Forgot/Forgot";
 import Otp from "./pages/Otp/Otp";
 import Reset from "./pages/Reset/Reset";
+import Updated from "./pages/Updated/Updated";
+import FormOne from "./pages/FormOne/FormOne";
+import Education from "./pages/Education/Education";
+
 function App() {
   return (
     <div className={styles.background}>
@@ -21,6 +25,9 @@ function App() {
     <Route path="/forgot" exact element={<Forgot/>}/>
     <Route path="/otp" exact element={<Otp/>}/>
     <Route path="/reset" exact element={<Reset/>}/>
+    <Route path="/updated" exact element ={<Updated/>}/>
+    <Route path="/formone" exact element ={<FormOne/>}/>
+    <Route path="/education" exact element ={<Education/>}/>
 
   </Routes>
 </BrowserRouter>
