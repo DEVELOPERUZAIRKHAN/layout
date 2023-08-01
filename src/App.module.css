@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+  }
+.main{
+    width: 375px;
+    height: 812px;
+    /* background-color: blue; */
+    overflow-y: scroll;
+    
+}
+.background{ 
+    display: flex; 
+    /* margin: 4rem auto; */
+     justify-content: center;
+    align-items: center; 
+    background-color: rgb(121, 121, 121); 
+    height: 100vh;
+    width: 100%;
+ }
+
+

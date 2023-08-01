@@ -1,0 +1,41 @@
+.main{
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.mainHeading{
+    padding-top: 70px;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Urbanist', sans-serif;
+    line-height: 29px;
+    margin-bottom: 26px;
+    text-align: center;
+    color: #061F5C;
+}
+.languageContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.button{
+    background-color: #061F5C;
+    color: #fff;
+    border-radius: 10px;
+    padding: 18px 131px 18px 131px;
+     display: block;
+    font-weight: 700;
+    line-height: 16px;
+    font-size: 16px;
+    font-family: 'Urbanist', sans-serif;
+    border: 1px solid #061F5C;
+    position: absolute;
+    bottom: 35px;
+    display: block;
+    margin:0 auto;
+    left:22px
+}
