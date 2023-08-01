@@ -10,6 +10,8 @@ import Reset from "./pages/Reset/Reset";
 import Updated from "./pages/Updated/Updated";
 import FormOne from "./pages/FormOne/FormOne";
 import Education from "./pages/Education/Education";
+import EmployerDetail from "./pages/EmployerDetail/EmployerDetail";
+import FormThree from "./pages/FormThree/FormThree";
 
 function App() {
   return (
@@ -28,6 +30,8 @@ function App() {
     <Route path="/updated" exact element ={<Updated/>}/>
     <Route path="/formone" exact element ={<FormOne/>}/>
     <Route path="/education" exact element ={<Education/>}/>
+    <Route path="/employerdetail" exact element ={<EmployerDetail/>}/>
+    <Route path="/formthree" exact element ={<FormThree/>}/>
 
   </Routes>
 </BrowserRouter>

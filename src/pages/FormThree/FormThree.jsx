@@ -1,9 +1,9 @@
-import styles from "./EmployerDetail.module.css";
+import styles from "./FormThree.module.css";
 import image from "../../images/Bell.png";
 import imageTwo from "../../images/Caret down.png";
 import arrow from "../../images/Arrow - Left.png"
 import InputField from "../../components/InputField/InputField";
-export default function EmployerDetail() {
+export default function FormThree() {
   return (
     <div className={styles.main}>
       <div className={styles.bellContainer}>
@@ -13,7 +13,9 @@ export default function EmployerDetail() {
 </div>
         <img className={styles.bell} src={image} alt="" srcset="" />
       </div>
-      <h1 className={styles.mainHeading}>Employer's Details</h1>
+      <h1 className={styles.mainHeading}>Lorem Ipsum Dolar</h1>
+
+      
   
       <div className={styles.dropContainer}>
         <div className={styles.drop}>

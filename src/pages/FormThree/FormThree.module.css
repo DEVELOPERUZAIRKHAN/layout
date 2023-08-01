@@ -114,8 +114,6 @@ background: var(--primary-blue, #061F5C);
 color: #fff;
 width: 335px;
 margin: auto;
-/* margin-top: 58px; */
-/* padding-bottom: 70px; */
 }
 .buttonSec{
     display: flex;
