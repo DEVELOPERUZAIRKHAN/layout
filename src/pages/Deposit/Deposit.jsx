@@ -1,9 +1,9 @@
-import styles from "./FormThree.module.css";
+import styles from "./Deposit.module.css";
 import image from "../../images/Bell.png";
 import imageTwo from "../../images/Caret down.png";
 import arrow from "../../images/Arrow - Left.png"
 import InputField from "../../components/InputField/InputField";
-export default function FormThree() {
+export default function Deposit() {
   return (
     <div className={styles.main}>
       <div className={styles.bellContainer}>

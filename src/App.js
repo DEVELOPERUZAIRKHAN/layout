@@ -12,6 +12,7 @@ import FormOne from "./pages/FormOne/FormOne";
 import Education from "./pages/Education/Education";
 import EmployerDetail from "./pages/EmployerDetail/EmployerDetail";
 import FormThree from "./pages/FormThree/FormThree";
+import Deposit from "./pages/Deposit/Deposit";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
     <Route path="/education" exact element ={<Education/>}/>
     <Route path="/employerdetail" exact element ={<EmployerDetail/>}/>
     <Route path="/formthree" exact element ={<FormThree/>}/>
+    <Route path="/deposit" exact element ={<Deposit/>}/>
 
   </Routes>
 </BrowserRouter>
