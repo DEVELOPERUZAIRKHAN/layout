@@ -4,6 +4,8 @@ import Splash from "./pages/Splash/Splash";
 import Language from "./pages/Language/Language";
 import Login from "./pages/Login/Login";
 import Signup from "./pages/Signup/Signup";
+import Forgot from "./pages/Forgot/Forgot";
+import Otp from "./pages/Otp/Otp";
 function App() {
   return (
     <div className={styles.background}>
@@ -16,6 +18,8 @@ function App() {
     <Route path="/language" exact element={<Language/>}/>
     <Route path="/login" exact element={<Login/>}/>
     <Route path="/signup" exact element={<Signup/>}/>
+    <Route path="/forgot" exact element={<Forgot/>}/>
+    <Route path="/otp" exact element={<Otp/>}/>
 
   </Routes>
 </BrowserRouter>

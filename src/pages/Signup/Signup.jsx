@@ -2,7 +2,6 @@ import styles from "./Signup.module.css"
 import image from "../../images/Ellipse 1.png"
 export default function Signup(){
 
-
     return(
         <div className={styles.main}>
             <div className={styles.ballContainer}>
