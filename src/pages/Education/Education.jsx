@@ -6,6 +6,8 @@ import InputField from "../../components/InputField/InputField";
 export default function Education() {
   return (
     <div className={styles.main}>
+    <div className={styles.container}>
+
       <div className={styles.bellContainer}>
 
 <div className={styles.arrowContainer}>
@@ -18,32 +20,32 @@ export default function Education() {
       High School
       </p>
 
-      <div style={{ width: "335px", margin: "0 auto" }}>
+      <div style={{ width: "90%", margin: "0 auto" }}>
         <InputField placeholder="Name of school" type="text" />
       </div>
-      <div style={{ width: "335px", margin: "0 auto" }}>
+      <div style={{ width: "90%", margin: "0 auto" }}>
         <InputField placeholder="# of years completed" type="text" />
       </div>
-      <div style={{ width: "335px", margin: "0 auto" }}>
+      <div style={{ width: "90%", margin: "0 auto" }}>
         <InputField placeholder="Program of study" type="text" />
       </div>
-      <div style={{ width: "335px", margin: "0 auto" }}>
+      <div style={{ width: "90%", margin: "0 auto" }}>
         <InputField placeholder="Degree / Diploma recieved" type="text" />
       </div>
       <p className={styles.mainPara}>
       College / University
       </p>
    
-      <div style={{ width: "335px", margin: "0 auto" }}>
+      <div style={{ width: "90%", margin: "0 auto" }}>
         <InputField placeholder="Name of college / university" type="text" />
       </div>
-      <div style={{ width: "335px", margin: "0 auto" }}>
+      <div style={{ width: "90%", margin: "0 auto" }}>
         <InputField placeholder="# of years completed" type="text" />
       </div>
-      <div style={{ width: "335px", margin: "0 auto" }}>
+      <div style={{ width: "90%", margin: "0 auto" }}>
         <InputField placeholder="Program of study" type="text" />
       </div>
-      <div style={{ width: "335px", margin: "0 auto" }}>
+      <div style={{ width: "90%", margin: "0 auto" }}>
         <InputField placeholder="Degree / Diploma received" type="text" />
       </div>
 
@@ -57,20 +59,21 @@ export default function Education() {
       Trade School
       </p>
    
-      <div style={{ width: "335px", margin: "0 auto" }}>
+      <div style={{ width: "90%", margin: "0 auto" }}>
         <InputField placeholder="Name of trade school" type="text" />
       </div>
-      <div style={{ width: "335px", margin: "0 auto" }}>
+      <div style={{ width: "90%", margin: "0 auto" }}>
         <InputField placeholder="# of years completed" type="text" />
       </div>
-      <div style={{ width: "335px", margin: "0 auto" }}>
+      <div style={{ width: "90%", margin: "0 auto" }}>
         <InputField placeholder="Program of study" type="text" />
       </div>
-      <div style={{ width: "335px", margin: "0 auto" }}>
+      <div style={{ width: "90%", margin: "0 auto" }}>
         <InputField placeholder="Degree / Diploma received" type="text" />
       </div>
 
         <button className={styles.button}>Next</button>
+    </div>
     </div>
   );
 }

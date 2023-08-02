@@ -4,12 +4,16 @@
     overflow: scroll;
     padding-bottom: 70px;
 }
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
 .bellContainer{
    display: flex;
    justify-content: space-between;
    margin-right: 20px;
    margin-bottom: 20px;
-   width: 335px;
+   width: 90%;
    margin: 20px auto;
    align-items: center;
 
@@ -32,7 +36,9 @@ font-size: 24px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
-margin-left: 20px;
+/* margin-left: 20px; */
+width: 90%;
+margin: 0 AUTO;
 margin-bottom: 10px;
 }
 .mainPara{
@@ -45,12 +51,12 @@ margin-bottom: 10px;
     line-height: normal;
     margin-bottom: 10px;
     margin-top: 30px;
-    width: 335px;
+    width: 90%;
 }
 .dropContainer{
     margin: 0 auto;
     display: flex;
-    width: 335px;
+    width: 90%;
     margin-bottom: 25px;
 }
 .drop{
@@ -79,7 +85,7 @@ line-height: normal;
     width: calc(50% - 3px);
 }
 .p{
-    width: 335px;
+    width: 90%;
     color: var(--primary-blue, #061F5C);
 font-family: "Urbanist";
 font-size: 14px;
@@ -98,7 +104,7 @@ font-size: 14px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
-width: 335px;
+width: 90%;
 margin: 0 auto;
 margin-bottom: 10px;
 }
@@ -112,7 +118,7 @@ align-items: center;
 border-radius: 10px;
 background: var(--primary-blue, #061F5C);
 color: #fff;
-width: 335px;
+width: 90%;
 margin: auto;
 margin-top: 58px;
 /* padding-bottom: 70px; */

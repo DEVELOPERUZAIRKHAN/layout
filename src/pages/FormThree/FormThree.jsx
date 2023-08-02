@@ -20,7 +20,7 @@ export default function FormThree() {
   Sed maximus condimentum accumsan. Fusce rhoncus laoreet justo, quis mattis tellus pulvinar sit amet.
   </p>
 
-      <div style={{ width: "335px", margin: "0 auto" }}>
+      <div style={{ width: "90%", margin: "0 auto" }}>
         <InputField placeholder="What positions are you applying for?" type="text" />
       </div>
 
@@ -77,7 +77,7 @@ export default function FormThree() {
         </div>
 
 
-        <p style={{width:"335px",margin:"10px auto"}} className={styles.question}>
+        <p style={{width:"90%",margin:"10px auto"}} className={styles.question}>
             Other skills
         </p>
         <div className={styles.inputBox}>

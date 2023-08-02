@@ -1,5 +1,5 @@
 .main{
-    background-color:#fff;
+    /* background-color:#030303; */
     padding-top: 61px;
     overflow: scroll;
     padding-bottom: 70px;
@@ -9,7 +9,7 @@
    justify-content: space-between;
    margin-right: 20px;
    margin-bottom: 20px;
-   width: 335px;
+   width: 90%;
    margin: 20px auto;
    align-items: center;
 
@@ -32,7 +32,11 @@ font-size: 24px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
-margin-left: 20px;
+
+/* margin-left: 20px; */
+
+margin: 0 auto;
+width: 90%;
 margin-bottom: 10px;
 }
 .mainPara{
@@ -45,12 +49,12 @@ margin-bottom: 10px;
     line-height: normal;
     margin-bottom: 10px;
     margin-top: 30px;
-    width: 335px;
+    width: 90%;
 }
 .dropContainer{
     margin: 0 auto;
     display: flex;
-    width: 335px;
+    width: 90%;
     margin-bottom: 25px;
 }
 .drop{
@@ -79,14 +83,14 @@ line-height: normal;
 
 .button{
     display: flex;
-width: 335px;
+width: 90%;
 padding: 18px 131px;
 justify-content: center;
 align-items: center;
 border-radius: 10px;
 background: var(--primary-blue, #061F5C);
 color: #fff;
-width: 335px;
+width: 90%;
 margin: auto;
 outline: none;
 border: none;
@@ -95,7 +99,7 @@ border: none;
 .primaryPara{
     color: var(--black, #010101);
 font-family: "Urbanist";
-width: 335px;
+width: 90%;
 margin: 0 auto;
 font-size: 14px;
 font-style: normal;
@@ -107,7 +111,7 @@ line-height: normal;
 
 
 .questionBox{
-    width:335px ;
+    width:90% ;
     margin: 0 auto;
 }
 .question{
@@ -122,13 +126,15 @@ line-height: normal;
 }
 .buttonBox{
     display: flex;
+    justify-content: space-between;
 }
 .btn{
-    display: flex;
-    width: 164px;
+    /* display: flex;    */
+    width: 48%;
     height: 52px;
-    padding: 17px 76px 18px 71px;
-    align-items: center;
+    /* padding: 17px 76px 18px 71px; */
+    padding: 17px;
+    /* align-items: center; */
     flex-shrink: 0;
     border-radius: 10px;
 border: 0.8px solid var(--tertiary-colors, #191919);
@@ -143,7 +149,7 @@ margin-right: 7px;
 margin-bottom: 25px;
 }
 .inputBox{
-    width: 335px;
+    width: 90%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -151,7 +157,7 @@ margin-bottom: 25px;
     margin-bottom: 40px;
 }
 .inputContainer{
-    width: 160px;
+    width: 33%;
     /* margin-right: 7px; */
 
 }

@@ -5,6 +5,8 @@ import InputField from "../../components/InputField/InputField";
 export default function FormOne() {
   return (
     <div className={styles.main}>
+    <div className={styles.outerContainer}>
+
       <div className={styles.bellContainer}>
         <img className={styles.bell} src={image} alt="" srcset="" />
       </div>
@@ -24,21 +26,21 @@ export default function FormOne() {
         </div>
       </div>
 
-      <div style={{ width: "335px", margin: "0 auto" }}>
+      <div style={{ width: "90%", margin: "0 auto" }}>
         <InputField placeholder="First name and middle initial" type="text" />
       </div>
-      <div style={{ width: "335px", margin: "0 auto" }}>
+      <div style={{ width: "90%", margin: "0 auto" }}>
         <InputField placeholder="Last name" type="text" />
       </div>
-      <div style={{ width: "335px", margin: "0 auto" }}>
+      <div style={{ width: "90%", margin: "0 auto" }}>
         <InputField placeholder="SSN" type="text" />
       </div>
-      <div style={{ width: "335px", margin: "0 auto" }}>
+      <div style={{ width: "90%", margin: "0 auto" }}>
         <InputField placeholder="Address" type="text" />
       </div>
       <div
         className={styles.containerBox}
-        style={{ width: "335px", margin: "0 auto" }}
+        style={{ width: "90%", margin: "0 auto" }}
       >
         <div className={styles.container}>
           <InputField icon="something" placeholder="State" type="text" />
@@ -49,7 +51,7 @@ export default function FormOne() {
       </div>
       <div
         className={styles.containerBox}
-        style={{ width: "335px", margin: "0 auto" }}
+        style={{ width: "90%", margin: "0 auto" }}
       >
         <div style={{ marginBottom: "20px" }} className={styles.cityContainer}>
           <InputField icon="something" placeholder="City" type="text" />
@@ -59,7 +61,7 @@ export default function FormOne() {
 
       <div
         className={styles.containerBox}
-        style={{ width: "335px", margin: "0 auto", marginBottom:"37px" }}
+        style={{ width: "90%", margin: "0 auto", marginBottom:"37px" }}
       >
         <div className={styles.container}>
           <InputField icon="something" placeholder="Month" type="text" />
@@ -73,11 +75,11 @@ export default function FormOne() {
       </div>
 
     
-      <div style={{ width: "335px", margin: "0 auto" }}>
+      <div style={{ width: "90%", margin: "0 auto" }}>
         <InputField placeholder="Email" type="email" />
       </div>
     
-      <div style={{ width: "335px", margin: "0 auto", marginBottom:"40px" }}>
+      <div style={{ width: "90%", margin: "0 auto", marginBottom:"40px" }}>
         <InputField placeholder="Phone number" type="email" />
       </div>
 
@@ -89,6 +91,7 @@ export default function FormOne() {
 
 
         <button className={styles.button}>Next</button>
+    </div>
     </div>
   );
 }

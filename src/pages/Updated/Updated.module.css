@@ -1,6 +1,7 @@
 .main{
     background-color: #061F5C;
     padding-bottom: 230px;
+    height: 100vh;
 }
 .mainHeading{
     padding-top: 247px;
@@ -10,15 +11,12 @@
     font-weight: 700;
     word-wrap: break-word;
     text-align: center;
-    /* background-color: blue; */
-    /* color: #fff; */
     margin-bottom: 30px;
 }
 
 .logo{
     width: 142px;
 height: 142px;
-/* flex-shrink: 0; */
 text-align: center;
 color: white;
 display: block;
@@ -55,5 +53,4 @@ line-height: 16px;
 margin: 0 auto;
 border: none;
 outline: none;
-
 }

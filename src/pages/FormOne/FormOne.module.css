@@ -4,11 +4,17 @@
     overflow: scroll;
     padding-bottom: 70px;
 }
+.outerContainer{
+    max-width: 1100px;
+    margin: 0 auto;
+}
 .bellContainer{
    display: flex;
    justify-content: flex-end;
-   margin-right: 20px;
-   margin-bottom: 20px;
+   /* margin-right: 20px; */
+   /* margin-bottom: 20px; */
+   margin: 0 auto;
+   width: 90%;
 }
 .mainHeading{
     color: #061F5C;
@@ -17,7 +23,9 @@ font-size: 24px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
-margin-left: 20px;
+/* margin-left: 20px; */
+width: 90%;
+margin:0 auto;
 margin-bottom: 10px;
 }
 .mainPara{
@@ -27,7 +35,7 @@ font-size: 14px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
-width: 335px ;
+width: 90% ;
 margin: 0 auto;
 color: #010101;
 margin-bottom: 41px;
@@ -35,11 +43,13 @@ margin-bottom: 41px;
 .dropContainer{
     margin: 0 auto;
     display: flex;
-    width: 335px;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
     margin-bottom: 25px;
 }
 .drop{
-    width: 164px;
+    width: 45%;
     height: 49px;
     flex-shrink: 0;
     display: flex;
@@ -57,14 +67,19 @@ line-height: normal;
 
 .containerBox{
     display: flex;
-    gap: 7px;
+    /* gap: 7px; */
+    justify-content: space-between;
+    gap: 1rem;
 }
-
+.container{
+    width: 49%;
+    
+}
 .cityContainer{
-    width: calc(50% - 3px);
+    width: 49%;
 }
 .p{
-    width: 335px;
+    width: 90%;
     color: var(--primary-blue, #061F5C);
 font-family: "Urbanist";
 font-size: 14px;
@@ -83,12 +98,14 @@ font-size: 14px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
-width: 335px;
+width: 90%;
 margin: 0 auto;
 margin-bottom: 10px;
 }
 
 .button{
+    outline: none;
+    border: none;
     display: flex;
 width: 334px;
 padding: 18px 131px;
@@ -97,7 +114,7 @@ align-items: center;
 border-radius: 10px;
 background: var(--primary-blue, #061F5C);
 color: #fff;
-width: 335px;
+width: 90%;
 margin: auto;
 /* padding-bottom: 70px; */
 }

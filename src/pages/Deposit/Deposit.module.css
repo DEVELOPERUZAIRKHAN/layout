@@ -1,15 +1,19 @@
 .main{
     background-color:#fff;
     padding-top: 61px;
-    overflow: scroll;
+    /* overflow: scroll; */
     padding-bottom: 70px;
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
 }
 .bellContainer{
    display: flex;
    justify-content: space-between;
-   margin-right: 20px;
-   margin-bottom: 20px;
-   width: 335px;
+   /* margin-right: 20px; */
+   /* margin-bottom: 20px; */
+   width: 90%;
    margin: 20px auto;
    align-items: center;
 
@@ -32,61 +36,21 @@ font-size: 24px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
-margin-left: 20px;
+width: 90%;
+margin: auto;
 margin-bottom: 10px;
 }
-.mainPara{
-    margin: 0 auto;
-    color: var(--primary-blue, #061F5C);
-    font-family: "Urbanist";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    margin-bottom: 10px;
-    margin-top: 30px;
-    width: 335px;
-}
-.dropContainer{
-    margin: 0 auto;
-    display: flex;
-    width: 335px;
-    margin-bottom: 25px;
-}
-.drop{
-    width: 164px;
-    height: 49px;
-    flex-shrink: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 16px 7px 16px 15px;
-    color: #000;
-font-family: "Urbanist";
-font-size: 14px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-
-}
-
-.containerBox{
-    display: flex;
-    gap: 7px;
-}
-
 
 
 .button{
     display: flex;
-width: 335px;
-padding: 18px 131px;
+padding: 18px 0;
 justify-content: center;
 align-items: center;
 border-radius: 10px;
 background: var(--primary-blue, #061F5C);
 color: #fff;
-width: 335px;
+width: 90%;
 margin: auto;
 outline: none;
 border: none;
@@ -95,7 +59,7 @@ border: none;
 .primaryPara{
     color: var(--black, #010101);
 font-family: "Urbanist";
-width: 335px;
+width: 90%;
 margin: 0 auto;
 font-size: 14px;
 font-style: normal;
@@ -107,7 +71,7 @@ line-height: normal;
 
 
 .questionBox{
-    width:335px ;
+    width:90% ;
     margin: 0 auto;
 }
 .question{
@@ -122,14 +86,13 @@ line-height: normal;
 }
 .buttonBox{
     display: flex;
+    justify-content: space-between;
 }
 .btn{
-    display: flex;
-    width: 164px;
+    width: 48%;
     height: 52px;
-    padding: 17px 76px 18px 71px;
-    align-items: center;
-    flex-shrink: 0;
+    padding: 17px 0;
+    text-align: center;
     border-radius: 10px;
 border: 0.8px solid var(--tertiary-colors, #191919);
 background: var(--white, #FFF);
@@ -139,11 +102,10 @@ font-size: 14px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
-margin-right: 7px;
 margin-bottom: 25px;
 }
 .inputBox{
-    width: 335px;
+    width: 90%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -151,7 +113,6 @@ margin-bottom: 25px;
     margin-bottom: 40px;
 }
 .inputContainer{
-    width: 160px;
-    /* margin-right: 7px; */
+    width: 48%;
 
 }

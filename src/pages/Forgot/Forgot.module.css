@@ -1,8 +1,9 @@
 .main{
     width: 100%;
-    height: 100%;
+    height: 100vh;
     background-color: #fff;
     position: relative;
+    overflow: hidden;
 }
 
 .imageContainer{
@@ -11,16 +12,17 @@
     align-items: center;
     padding-top: 66px;
     margin-bottom: 28px;
+    height: 50%;
 }
 
 .section
 {
-    position: absolute;
+    /* position: absolute; */
     bottom: 0;
     border-radius: 50px 50px 0 0;
     background-color: #061F5C;
 width: 100%;
-height: 482px;
+height: 50%;
 padding-top: 95px;
 }
 
@@ -30,7 +32,7 @@ padding-top: 95px;
     font-size: 24px;
     font-weight: 700;
     line-height: 28.8px;
-    width: 335px;
+    width: 90%;
     margin: 10px auto;
     
 }
@@ -39,14 +41,15 @@ padding-top: 95px;
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
-    width: 335px;
+    width: 90%;
     margin: 10px auto;
 }
 
 .inputContainer{
     margin: 0 auto;
+    width: 90%;
     margin-top: 40px;
-    width: 335px;
+
 }
 
 .label{
@@ -75,9 +78,9 @@ padding-top: 95px;
     display: block;
     margin: 0 auto;
     margin-top: 40px;
-    width:335px;
+    width:90%;
     border-radius: 10px;
-    padding: 18px 131px 18px 131px;
+    padding: 18px 0;
     border: none;
     outline: none;
     font-size: 16px;
@@ -86,11 +89,3 @@ padding-top: 95px;
     color: #061F5C;
     cursor: pointer;
 }
-/* Font
-Urbanist
-Weight
-700
-Size
-24px
-Line height
-28.8px */

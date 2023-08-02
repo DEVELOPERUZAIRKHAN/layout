@@ -7,7 +7,7 @@ export default function Reset(){
         <div className={styles.main}>
 
             <div className={styles.imageContainer}>
-                <img className={styles.image} src={image} alt="" />
+                <img style={{width:"150px"}} className={styles.image} src={image} alt="" />
             </div>
 
 

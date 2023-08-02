@@ -19,6 +19,8 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
 }
 
 
@@ -26,16 +28,17 @@
     background-color: #061F5C;
     color: #fff;
     border-radius: 10px;
-    padding: 18px 131px 18px 131px;
+    padding: 18px 0
+    ;
+    width: 90%;
+    margin: 0 auto;
      display: block;
     font-weight: 700;
     line-height: 16px;
     font-size: 16px;
     font-family: 'Urbanist', sans-serif;
     border: 1px solid #061F5C;
-    position: absolute;
-    bottom: 35px;
     display: block;
     margin:0 auto;
-    left:22px
+    margin-top: 2rem;
 }

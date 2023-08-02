@@ -6,7 +6,10 @@ import InputField from "../../components/InputField/InputField";
 export default function EmployerDetail() {
   return (
     <div className={styles.main}>
+    <div className={styles.outerContainer}>
+
       <div className={styles.bellContainer}>
+
 
 <div className={styles.arrowContainer}>
         <img className={styles.arrow} src={arrow} alt="" srcset="" />
@@ -25,19 +28,19 @@ export default function EmployerDetail() {
           <img className={styles.icon} src={imageTwo} alt="" />
         </div>
       </div>
-      <div style={{ width: "335px", margin: "0 auto" }}>
+      <div style={{ width: "90%", margin: "0 auto" }}>
         <InputField placeholder="Employer's name" type="text" />
       </div>
-      <div style={{ width: "335px", margin: "0 auto" }}>
+      <div style={{ width: "90%", margin: "0 auto" }}>
         <InputField placeholder="Address" type="text" />
       </div>
-      <div style={{ width: "335px", margin: "0 auto" }}>
+      <div style={{ width: "90%", margin: "0 auto" }}>
         <InputField placeholder="E-mail" type="text" />
       </div>
-      <div style={{ width: "335px", margin: "0 auto" }}>
+      <div style={{ width: "90%", margin: "0 auto" }}>
         <InputField placeholder="City and zip code" type="text" />
       </div>
-      <div style={{ width: "335px", margin: "0 auto" }}>
+      <div style={{ width: "90%", margin: "0 auto" }}>
         <InputField placeholder="Telephone" type="text" />
       </div>
       
@@ -47,7 +50,7 @@ export default function EmployerDetail() {
 
       <div
         className={styles.containerBox}
-        style={{ width: "335px", margin: "0 auto" }}
+        style={{ width: "90%", margin: "0 auto" }}
       >
         <div className={styles.container}>
           <InputField placeholder="Start pay" type="text" />
@@ -59,13 +62,13 @@ export default function EmployerDetail() {
       
       
       
-      <div style={{ width: "335px", margin: "0 auto" }}>
+      <div style={{ width: "90%", margin: "0 auto" }}>
         <InputField placeholder="Job title" type="text" />
       </div>
-      <div style={{ width: "335px", margin: "0 auto" }}>
+      <div style={{ width: "90%", margin: "0 auto" }}>
         <InputField placeholder="Reason for leaving" type="text" />
       </div>
-      <div style={{ width: "335px", margin: "0 auto" }}>
+      <div style={{ width: "90%", margin: "0 auto" }}>
         <InputField placeholder="Describe the work you did" type="text" />
       </div>
     
@@ -74,6 +77,7 @@ export default function EmployerDetail() {
 
         <button className={styles.buttonSec}>+ Add another employer</button>
         <button className={styles.button}>Next</button>
+    </div>
     </div>
   );
 }
